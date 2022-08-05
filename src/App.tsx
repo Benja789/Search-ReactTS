@@ -5,6 +5,7 @@ import {
 } from "react-router-dom";
 import Home from "./Page/Home";
 import Search from "./Page/Search";
+import SearchObject from "./Page/SearchObject";
 
 const App =() => {
     return (
@@ -13,6 +14,7 @@ const App =() => {
                 <Routes>
                     <Route path="" element={<Home />}/>
                     <Route path="/search" element={<Search />}/>
+                    <Route path="/searchobject" element={<SearchObject />}/>
                 </Routes>
             </BrowserRouter>
         </div>
